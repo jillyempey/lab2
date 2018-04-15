@@ -102,7 +102,8 @@ endif:
    /* Restore Registers    */
    pop {r2}
    pop {r1}
-   pop {r0}
+   add sp, sp, #4
+   /*pop {r0}*/
    pop {r6}
    pop {r5}
    pop {r4}
